@@ -1,0 +1,301 @@
+body{
+background-image: url(../Images/accounting.jpg);
+background-size: cover;
+height: 100%;
+margin: 0;
+padding: 0;
+position: relative;
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+#selectEmployee{
+    text-align: center;
+}
+.wrapTimesheet2{
+    display:none;
+}
+
+#img-banner{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 75%;
+}
+h1{
+    text-align: center;
+    font-family: arial;
+}
+footer{
+    margin-top: 0;
+    padding-top: 0;
+    background-color: white;
+    text-align: right;
+    margin: auto;
+    width: 75%;
+}
+#selectEmployee{
+    padding-bottom: none;
+    margin-bottom: 0;
+}
+#copyright{
+    margin-top: 0;
+}
+        
+label{
+    font-family: Verdana;
+}
+#EmployeeForm{
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+#empName{
+    text-align: center;
+}
+#employeename{
+    float: left;
+}
+#employeedate{
+    float: right;
+}
+input[type=submit]{
+/*    border-radius:0.3125em 0 0.3125em 0;
+    background-color: #000;
+    color: #fff;    
+    font-size: 1.3125em;*/
+    
+    background:#4db8ff;
+	color:white;
+	border-radius: 0 5px 5px 0;
+	cursor:pointer;
+	position:relative;
+	padding:0.25em;
+	font-family:sans-serif;
+	border: none;
+	font-size: 1.5em;
+}
+#delete{
+    background: red;
+    padding:0.25em;
+    font-size: 1.125em;
+}
+#copyright{
+    font-family: Verdana;
+}
+#submitdetails{
+    margin-left: 50%;
+}
+#hiddenID{
+    display: none;
+}
+.day{
+     maxlength: 4; 
+     size: 4;
+}
+#TimeSheet{
+    margin-bottom: 0;
+}
+h2{
+    font-family: arial, sans-serif;
+}
+#employeeheading {
+    float:left;
+    margin-left: 2em;
+}
+#employeeinformation1 {
+    float: left;
+}
+#employeeinformation2 {
+    float: left;
+    margin-left: 1.25em;
+}
+#employeeinformation3 {
+    float: right;
+    margin-left: 1.25em;
+}
+.details{
+    font-size: 1.25em;
+    color: blue;
+    font-family: sans-serif;
+}
+.details2{
+    color: red;
+}
+
+#wrapTimesheet{
+    display: inline-block;
+    margin-left:3.125em;
+    margin-right:1em;
+}
+#JobsCompleted {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 85%;
+  margin:auto;
+}
+#JobsCompleted tr{
+    background-color: #f2f2f2;
+    color:black;
+}
+
+#JobsCompleted td, #JobsCompleted th {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+#JobsCompleted th {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  text-align: left;
+  background-color: #383838;
+  color: white;
+}
+#JobsCompleted td.TotalColumn{
+    font-weight: bold;
+}
+#JobsCompleted2{
+    display: none;
+}
+#errorTooManyHours{
+    color: red;
+    text-align: center;
+    margin-bottom: 0;
+}
+#goBack{
+    text-align: center;
+    margin:auto;
+}
+#enterTimeSheet{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.135em;  
+}
+#enterTimeSheet2{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.135em;  
+    width:80%;
+    text-align: center;
+    background-color: #d4ffdf;
+    margin:auto;
+    border: 0.125em solid #000;
+    
+}
+#enterTimeSheet2 th {
+    width: 50%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#JobsCompleted2{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.135em;  
+    width:80%;
+    text-align: center;
+    background-color: #fffec4 ;
+    margin:auto;
+    border: 0.125em solid #000;
+    
+}
+#JobsCompleted2 th {
+    width:100;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background-color: #ccc900;
+    color: white;
+}
+#JobsCompleted2 td{
+    width:100%;
+}
+
+input .TotalColumn{
+background: transparent;
+    border: none;
+}
+#enterTimeSheet td, #enterTimeSheet th {
+  padding: 0.25em;
+}
+
+@media screen and (max-width: 1146px) {
+    main{
+        width:100%;
+    }
+    #img-banner{
+        width: 100%;
+    }
+    footer{
+        width:100%;
+    }
+    background-image{
+        background-size:contain;
+        background-position:center;
+    }
+    
+    
+}
+
+@media screen and (max-width: 876px) {
+    body{
+        background-image: none;
+        background-size:100% 50%;
+    }
+    #enterTimeSheet{
+        font-size:1em;
+    }
+    #employeeinformation{
+        margin-left: 0.75em;
+    }
+    #wrapTimesheet{
+        margin-left:1.75em;
+    }
+    
+}
+@media screen and (max-width: 850px) {
+    
+/*    .deleteOption{
+        display:none;
+    }
+    #delTag{
+        display:none;
+    }*/
+}
+@media screen and (max-width: 800px){
+    #wrap{
+        width:50%;
+        margin:auto;
+    }
+    
+    #employeeinformation1{
+        margin:auto;
+    }
+    #employeeinformation2{
+        float:left;
+        margin-left: 0;
+        
+    }
+    #employeeinformation3{
+        margin-left: 0;
+        float:left;
+    }
+}
+@media screen and (max-width: 750px){
+    #wrapTimesheet{
+        display:none;
+    }
+    .wrapTimesheet2{
+        display: block;
+    }
+    #JobsCompleted{
+        display: none;
+    }
+    #JobsCompleted2{
+        display: block;
+    }
+}
