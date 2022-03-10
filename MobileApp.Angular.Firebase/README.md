@@ -1,4 +1,4 @@
-In this project, I have created a Mobile App using Ionic, Angular and Firebase. This application deals with books.
+In this project, I have created a Mobile App using Ionic, Angular and Firebase. Books are used as a focus in this application.
 
 Cloud Firestore is used to store the data (i.e, users, books) in collections and documents.
 
