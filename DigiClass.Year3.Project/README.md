@@ -1,3 +1,5 @@
+Year 3 Group Project (Team of 3)
+
 DigiClass is an Online Grinds System allocated to Leaving Certificate Students and Teachers to connect. The idea was brought about during the COVID-19 pandemic whereas students and teachers would find difficulty physically giving grinds lessons outside school hours. 
 
 On this application, both Students and Teachers have the option to register and design their profile.
